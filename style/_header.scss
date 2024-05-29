@@ -1,6 +1,41 @@
 .header{
     width: 100%;
-    max-width: 1773px;
+    max-width: 1600px;
     min-height: 300px;
     margin: 0 auto;
+
+    &__wrapper{
+        width: 100%;
+        max-width: 1600px;
+        min-height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: solid blue;
+    }
+    &__box{
+        width: 100%;
+        max-width: 500px;
+        margin-left: 20px;
+        font-size: 36px;
+    }
+}
+.nav{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    &__list{
+        width: 100%;
+        max-width: 520px;
+        list-style-type: none;
+        display: flex;
+        flex: row;
+        justify-content: space-evenly;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
 }
