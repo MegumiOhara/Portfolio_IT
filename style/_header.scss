@@ -1,15 +1,18 @@
 .header{
     width: 100%;
-    max-width: 1600px;
+    max-width: 17730px;
     height: 90px;
     margin: 0 auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
 
     &__wrapper{
         width: 100%;
         max-width: 1600px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     &__box{
         width: 100%;

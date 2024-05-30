@@ -15,6 +15,7 @@ body {
 .main {
   width: 100%;
   max-width: 1773px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -28,16 +29,19 @@ h3 {
 
 .header {
   width: 100%;
-  max-width: 1600px;
+  max-width: 17730px;
   height: 90px;
   margin: 0 auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
 }
 .header__wrapper {
   width: 100%;
   max-width: 1600px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .header__box {
   width: 100%;
