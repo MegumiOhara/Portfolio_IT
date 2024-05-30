@@ -1,0 +1,25 @@
+.sec-res{
+    max-width: 1600px;
+    min-height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    outline: blue solid;
+
+    &__box{
+        outline: green solid;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__ed{
+        line-height: 22px;
+        
+    }
+    &__wo{
+
+    }
+    &__sk{
+
+    }
+}

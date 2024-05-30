@@ -135,3 +135,20 @@ h4 {
 .soc:hover {
   color: blue;
 }
+
+.sec-res {
+  max-width: 1600px;
+  min-height: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  outline: blue solid;
+}
+.sec-res__box {
+  outline: green solid;
+  display: flex;
+  justify-content: space-evenly;
+}
+.sec-res__ed {
+  line-height: 22px;
+}
