@@ -13,13 +13,18 @@
     }
 
     &__ed{
-        line-height: 22px;
+        outline: solid yellow;
         
     }
     &__wo{
-
+        outline: purple solid;
     }
     &__sk{
+        outline: aquamarine solid;
 
     }
+}
+.res-title{
+    text-align: center;
+    letter-spacing: 0.2em;
 }

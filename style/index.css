@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Arial";
   font-size: 18px;
   line-height: 30px;
   box-sizing: border-box;
@@ -15,11 +15,11 @@ body {
 
 h1 {
   font-size: 36px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-h4 {
-  font-size: 20px;
-  font-weight: bolder;
+h3 {
+  font-family: "Aleo", serif;
 }
 
 .header {
@@ -150,5 +150,16 @@ h4 {
   justify-content: space-evenly;
 }
 .sec-res__ed {
-  line-height: 22px;
+  outline: solid yellow;
+}
+.sec-res__wo {
+  outline: purple solid;
+}
+.sec-res__sk {
+  outline: aquamarine solid;
+}
+
+.res-title {
+  text-align: center;
+  letter-spacing: 0.2em;
 }

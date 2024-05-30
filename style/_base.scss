@@ -13,9 +13,10 @@ body{
   }
 h1{
     font-size: 36px; 
+    font-family:variables.$title-font ;
 }
-h4{
-    font-size: 20px;
-    font-weight: bolder;
+h3{
+  font-family: variables.$secondary-font;
 }
+
 
