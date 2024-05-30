@@ -1,14 +1,12 @@
 .header{
     width: 100%;
     max-width: 1600px;
-    height: 125px;
+    height: 90px;
     margin: 0 auto;
-    outline: blue solid;
 
     &__wrapper{
         width: 100%;
         max-width: 1600px;
-        min-height: 120px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -39,5 +37,12 @@
         flex: row;
         justify-content: space-evenly;
         text-transform: uppercase;
+    }
+    &__link{
+        text-decoration: none;
+        color: black;
+    }
+    &__link:hover{
+        color: #6495ED;
     }
 }

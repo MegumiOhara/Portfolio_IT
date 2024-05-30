@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 auto;
   font-family: "Arial";
@@ -25,14 +29,12 @@ h3 {
 .header {
   width: 100%;
   max-width: 1600px;
-  height: 125px;
+  height: 90px;
   margin: 0 auto;
-  outline: blue solid;
 }
 .header__wrapper {
   width: 100%;
   max-width: 1600px;
-  min-height: 120px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -63,6 +65,13 @@ h3 {
   flex: row;
   justify-content: space-evenly;
   text-transform: uppercase;
+}
+.nav__link {
+  text-decoration: none;
+  color: black;
+}
+.nav__link:hover {
+  color: #6495ED;
 }
 
 .sec-bio {
