@@ -1,13 +1,13 @@
 .header{
     width: 100%;
     max-width: 1600px;
-    min-height: 150px;
+    height: 150px;
     margin: 0 auto;
 
     &__wrapper{
         width: 100%;
         max-width: 1600px;
-        min-height: 150px;
+        min-height: 120px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -38,7 +38,7 @@
         display: flex;
         flex: row;
         justify-content: space-evenly;
-        font-size: 25px;
+        font-size: 20px;
         text-transform: uppercase;
     }
 }

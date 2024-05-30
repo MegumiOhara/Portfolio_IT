@@ -1,10 +1,9 @@
 .sec-bio{
-    outline: solid red;
     background: linear-gradient(
         to right,
         variables.$theme-color 0%,
         variables.$theme-color 40%,
-        white 40%,
+        rgb(255, 255, 255) 40%,
         white 100%
     );
     max-width: 1600px;
@@ -12,38 +11,37 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    
-    
+    align-items: center;
+
     &__box{
         height: 500px;
-        display: flex;
-        align-items: center;
-        
-        
-        
+        display: flex;  
     }
     &__prof{
-        outline: solid orange;
+        box-shadow: 0 10px 20px rgb(0 0 0/0.2);
+        background-color: #CDDDF9;
         width: 350px;
         margin-left: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 15px;
-
     }
     &__text{
-        outline: solid green;
-        width: 400px;
-        /*height: 390px;*/
-        
-        
-    }
-    
-    
+        width: 500px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
 }
 .profile-pic{
     overflow: hidden;
     border-radius: 50%;
     height: 250px;
+}
+.bio-jt{
+    letter-spacing: 2px;
+    font-weight: 500;
 }

@@ -1,12 +1,21 @@
 body{
     margin: 0 auto;
     font-family: variables.$main-font;
+    font-size: 18px;
+    line-height: 30px;
     box-sizing: border-box;  
     background-color: #f9fafa;
     color: #20303c;
   }
-  .main{
+.main{
       width: 100%;
-      max-width: 1773px;
-      margin: 0 auto;
+      max-width: 1773px; 
   }
+h1{
+    font-size: 36px; 
+}
+h4{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
