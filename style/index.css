@@ -144,22 +144,31 @@ h3 {
   flex-direction: column;
   outline: blue solid;
 }
+.sec-res__title {
+  text-align: center;
+  letter-spacing: 0.2em;
+}
 .sec-res__box {
   outline: green solid;
   display: flex;
   justify-content: space-evenly;
 }
+.sec-res__box li {
+  list-style-image: url(../images/circle-solid.svg);
+}
+
+.sec-res__box li::marker {
+  color: #B0C9F6;
+}
+
 .sec-res__ed {
   outline: solid yellow;
 }
+
 .sec-res__wo {
   outline: purple solid;
 }
+
 .sec-res__sk {
   outline: aquamarine solid;
-}
-
-.res-title {
-  text-align: center;
-  letter-spacing: 0.2em;
 }

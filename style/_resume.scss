@@ -6,25 +6,31 @@
     flex-direction: column;
     outline: blue solid;
 
+    &__title{
+            text-align: center;
+            letter-spacing: 0.2em;
+        } 
     &__box{
         outline: green solid;
         display: flex;
         justify-content: space-evenly;
     }
-
-    &__ed{
-        outline: solid yellow;
-        
+    &__box li{
+        list-style-image: url(../images/circle-solid.svg);
     }
-    &__wo{
-        outline: purple solid;
-    }
-    &__sk{
-        outline: aquamarine solid;
-
-    }
+    
 }
-.res-title{
-    text-align: center;
-    letter-spacing: 0.2em;
+.sec-res__box li::marker{
+    color: #B0C9F6;
+}
+.sec-res__ed{
+    outline: solid yellow;
+    
+}
+.sec-res__wo{
+    outline: purple solid;
+}
+.sec-res__sk{
+    outline: aquamarine solid;
+
 }
