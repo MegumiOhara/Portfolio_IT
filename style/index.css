@@ -173,3 +173,10 @@ h3 {
   text-indent: 20px;
   color: rgb(102, 99, 99);
 }
+
+.sec-wo {
+  max-width: 1600px;
+  min-height: 600px;
+  margin: 0 auto;
+  outline: blue solid;
+}
