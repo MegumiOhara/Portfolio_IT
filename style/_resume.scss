@@ -4,14 +4,14 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    outline: blue solid;
 
     &__title{
             text-align: center;
             letter-spacing: 0.2em;
+            border-bottom: #DFE9FB solid;
+            height: 40px;
         } 
     &__box{
-        outline: green solid;
         display: flex;
         justify-content: space-evenly;
     }
@@ -20,17 +20,11 @@
     }
     
 }
-.sec-res__box li::marker{
-    color: #B0C9F6;
-}
-.sec-res__ed{
-    outline: solid yellow;
+.sec-res p{
+    line-height: 16px;
+    font-size: 16px;
+    text-indent: 20px;
+    color: rgb(102, 99, 99);
     
 }
-.sec-res__wo{
-    outline: purple solid;
-}
-.sec-res__sk{
-    outline: aquamarine solid;
 
-}
