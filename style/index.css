@@ -15,7 +15,7 @@ body {
 .header {
   width: 100%;
   max-width: 1600px;
-  min-height: 300px;
+  min-height: 150px;
   margin: 0 auto;
 }
 .header__wrapper {
@@ -31,16 +31,19 @@ body {
   width: 100%;
   max-width: 500px;
   margin-left: 20px;
-  font-size: 36px;
+  font-size: 30px;
+  display: flex;
+  align-self: end;
 }
 
 .nav {
   width: 100%;
+  max-width: 800px;
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: end;
 }
 .nav__list {
   width: 100%;
@@ -49,6 +52,41 @@ body {
   display: flex;
   flex: row;
   justify-content: space-evenly;
-  font-size: 20px;
+  font-size: 25px;
   text-transform: uppercase;
+}
+
+.sec-bio {
+  outline: solid red;
+  background: linear-gradient(to right, #B0C9F6 0%, #B0C9F6 40%, white 40%, white 100%);
+  max-width: 1600px;
+  min-height: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.sec-bio__box {
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.sec-bio__prof {
+  outline: solid orange;
+  width: 350px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+.sec-bio__text {
+  outline: solid green;
+  width: 400px;
+  /*height: 390px;*/
+}
+
+.profile-pic {
+  overflow: hidden;
+  border-radius: 50%;
+  height: 250px;
 }
