@@ -18,6 +18,10 @@ body{
 h1{
     font-size: 36px; 
     font-family:variables.$title-font ;
+    text-align: center;
+    letter-spacing: 0.2em;
+    border-bottom: #DFE9FB solid;
+    height: 40px;
 }
 h3{
   font-family: variables.$secondary-font;
