@@ -1,0 +1,30 @@
+.sec-cont{
+    width: 100%;
+    max-width: 1600px;
+    min-height: 600px;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__box{
+        width: 1400px;
+        outline: orange solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.sec-cont__name{
+    display: flex;
+    justify-content: space-evenly;
+}
+.input-field{
+    border: none;
+    border-bottom: solid #9cbbf4;
+}
