@@ -2,7 +2,6 @@
     max-width: 1600px;
     min-height: 600px;
     margin: 0 auto;
-    outline: blue solid;
 
     &__box{
         max-width: 1550px;
@@ -16,21 +15,30 @@
         box-sizing: border-box;
         display: flex;
         justify-content: space-evenly;
-        outline: orange solid;
     }
 }
 .sec-grid{
     max-width: 400px;
-    max-height: 600px;
+    min-height: 600px;
     padding: 15px;
     margin: 0 auto;
     background-color:  #eff0f3;
     outline: variables.$theme-color solid ;
+    border-radius: 3px;
+    box-shadow: 0 10px 20px variables.$theme-color;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
+.sec-grid p{
+   
+
+}
 .sec-wo__img{
     width: 300px;
+    height: 300px;
+}
+.q{
+    margin-top: 10px;
 }

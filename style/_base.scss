@@ -26,5 +26,19 @@ h1{
 h3{
   font-family: variables.$secondary-font;
 }
+button{
+  background-color: #C0D4F8;
+  width: 250px;
+  height: 46px;
+  padding: 0 16px;
+  color: #033f60;
+  cursor: pointer;
+  border: #9CBBF4;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px #9CBBF4;
+  margin-top: 10px;
+  
+}
+
 
 

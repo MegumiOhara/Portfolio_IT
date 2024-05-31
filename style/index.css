@@ -31,6 +31,19 @@ h3 {
   font-family: "Aleo", serif;
 }
 
+button {
+  background-color: #C0D4F8;
+  width: 250px;
+  height: 46px;
+  padding: 0 16px;
+  color: #033f60;
+  cursor: pointer;
+  border: #9CBBF4;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px #9CBBF4;
+  margin-top: 10px;
+}
+
 .header {
   width: 100%;
   max-width: 17730px;
@@ -178,7 +191,6 @@ h3 {
   max-width: 1600px;
   min-height: 600px;
   margin: 0 auto;
-  outline: blue solid;
 }
 .sec-wo__box {
   max-width: 1550px;
@@ -192,16 +204,17 @@ h3 {
   box-sizing: border-box;
   display: flex;
   justify-content: space-evenly;
-  outline: orange solid;
 }
 
 .sec-grid {
   max-width: 400px;
-  max-height: 600px;
+  min-height: 600px;
   padding: 15px;
   margin: 0 auto;
   background-color: #eff0f3;
   outline: #B0C9F6 solid;
+  border-radius: 3px;
+  box-shadow: 0 10px 20px #B0C9F6;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -210,4 +223,9 @@ h3 {
 
 .sec-wo__img {
   width: 300px;
+  height: 300px;
+}
+
+.q {
+  margin-top: 10px;
 }
