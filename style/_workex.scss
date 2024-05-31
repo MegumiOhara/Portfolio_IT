@@ -3,4 +3,25 @@
     min-height: 600px;
     margin: 0 auto;
     outline: blue solid;
+
+    &__box{
+        max-width: 1550px;
+        display: flex;
+        flex: column;
+        flex-wrap: wrap;
+    }
+    &__container{
+        min-height: 300px;
+        box-sizing: border-box;
+        display: flex;
+    }
+}
+.sec-grid{
+    max-width: 400px;
+    max-height: 500px;
+    outline: orange solid;
+}
+.sec-wo__img{
+    width: 300px;
+    object-fit: contain;
 }
