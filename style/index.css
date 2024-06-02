@@ -65,9 +65,11 @@ a {
   max-width: 17730px;
   height: 90px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #F4F8FD;
   display: flex;
   justify-content: center;
+  border-bottom: #F1F6FD solid;
+  box-shadow: 5px 10px 8px #DFE9FB;
 }
 .header__wrapper {
   width: 100%;
@@ -284,6 +286,11 @@ a {
   align-items: flex-start;
 }
 
+.sec-cont__title {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
 .sec-cont__name {
   width: 850px;
   height: 70px;
@@ -332,9 +339,10 @@ label {
 
 .footer {
   width: 100%;
-  max-width: 1773px;
+  max-width: 17730px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #F4F8FD;
+  margin-top: 20px;
 }
 
 .fot {
