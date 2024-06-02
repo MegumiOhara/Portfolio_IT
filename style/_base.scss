@@ -40,6 +40,10 @@ button:hover{
   background-color: #83AAF1;
   border: solid #9CBBF4;
 }
+button:active{
+  background-color: #6393ec;
+  box-shadow: 2px 2px 5px #649aff;
+}
 a{
   text-decoration: none;
   color: #043149;

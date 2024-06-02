@@ -47,6 +47,11 @@ button:hover {
   border: solid #9CBBF4;
 }
 
+button:active {
+  background-color: #6393ec;
+  box-shadow: 2px 2px 5px #649aff;
+}
+
 a {
   text-decoration: none;
   color: #043149;
@@ -277,7 +282,6 @@ a {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
-  background-color: white;
 }
 
 .sec-cont__name {
@@ -293,7 +297,7 @@ a {
   border: none;
   border-bottom: solid #9cbbf4;
   width: 300px;
-  background: white;
+  background-color: #f9fafa;
 }
 
 .input-field-n:focus, .input-field:focus, .textarea {
@@ -310,7 +314,7 @@ a {
 .input-field {
   border: none;
   border-bottom: solid #9cbbf4;
-  background-color: white;
+  background-color: #f9fafa;
   width: 848px;
   margin-top: 10px;
   margin-bottom: 16px;
@@ -324,4 +328,28 @@ label {
   width: 848px;
   border: solid #9cbbf4;
   resize: none;
+}
+
+.footer {
+  width: 100%;
+  max-width: 1773px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.fot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+}
+.fot__nav {
+  width: 300px;
+}
+.fot__soc {
+  display: flex;
+  justify-content: space-between;
+}
+.fot__soc .fa-brands {
+  font-size: 30px;
 }

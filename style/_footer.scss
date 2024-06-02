@@ -1,0 +1,23 @@
+.footer{
+    width: 100%;
+    max-width: 1773px; 
+    margin: 0 auto;
+    background-color: white;
+}
+.fot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+
+    &__nav{
+        width: 300px;
+    }
+    &__soc{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__soc .fa-brands{
+        font-size: 30px;
+    }
+}
