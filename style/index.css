@@ -1,7 +1,7 @@
 html {
   scroll-behavior: smooth;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  /*overflow-y: scroll; 
+  overflow-x: hidden;*/
 }
 
 body {
@@ -64,7 +64,7 @@ a {
 
 .header {
   width: 100%;
-  max-width: 17730px;
+  max-width: 1730px;
   height: 90px;
   margin: 0 auto;
   background-color: #F4F8FD;
@@ -72,6 +72,10 @@ a {
   justify-content: center;
   border-bottom: #F1F6FD solid;
   box-shadow: 5px 10px 8px #DFE9FB;
+  position: sticky;
+  -webkit-backdrop-filter: blur(45px);
+          backdrop-filter: blur(45px);
+  top: 0;
 }
 .header__wrapper {
   width: 100%;
@@ -92,7 +96,7 @@ a {
 .nav {
   width: 100%;
   max-width: 800px;
-  overflow: hidden;
+  /*overflow: hidden;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;

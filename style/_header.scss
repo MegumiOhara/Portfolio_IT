@@ -1,6 +1,6 @@
 .header{
     width: 100%;
-    max-width: 17730px;
+    max-width: 1730px;
     height: 90px;
     margin: 0 auto;
     background-color:#F4F8FD;
@@ -8,6 +8,9 @@
     justify-content: center;
     border-bottom: #F1F6FD solid;
     box-shadow: 5px 10px 8px  #DFE9FB;
+    position: sticky;
+    backdrop-filter: blur(45px);
+    top: 0;
 
     &__wrapper{
         width: 100%;
@@ -28,7 +31,7 @@
 .nav{
     width: 100%;
     max-width: 800px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
